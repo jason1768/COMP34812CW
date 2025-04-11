@@ -1,4 +1,4 @@
-# COMP34812CW
+# COMP34812CW_Solution_C
 
 ## 1. Overview
 
@@ -16,7 +16,7 @@ The final model was evaluated on the full development set (dev.csv) provided in 
 
 *Due to the GitHub's file size limit, the full best model is stored in google drive: https://drive.google.com/file/d/187MRDqhL-R8TtLHdwEGhKIAdBZnTL8rL/view?usp=drive_link*
 
-
+Github Repo
 .
 ├── comp34812-cw-c.ipynb          # Trains the DeBERTa model with LoRA and generates predictions on dev.csv
 │
@@ -25,7 +25,7 @@ The final model was evaluated on the full development set (dev.csv) provided in 
 ├── val_logs.csv                  # Per-epoch validation metrics (loss, accuracy, F1)
 ├── loss_curve.png                # Train vs validation loss plot
 ├── acc_f1_curve.png              # Validation accuracy and F1 score plot
-├── my_model_card.md              # Model description, metadata and evaluation results
+├── Group_48_C_modelcard.md       # Model description, metadata and evaluation results
 │
 ├── demo/
 │   ├── comp34812-cw-c-demo.ipynb # Demo notebook for inference on new test data
