@@ -9,7 +9,7 @@ repo: https://github.com/jason1768/COMP34812CW
 
 ---
 
-# Model Card for q36172hw-m95082rl-NLI
+# Model Card for q36172hw-m95082rl-NLI-Solution-C
 
 <!-- Provide a quick summary of what the model is/does. -->
 
@@ -161,7 +161,7 @@ The model obtained an F1-score of 90.85% and an accuracy of 90.86%.
       - The model was trained using mixed-precision (fp16), which helps save memory and speed up training on supported GPUs (e.g., T4 or A100).
       - Predictions were generated using the full development set (dev.csv), which was used as a test set in this coursework but is not the final blind test.
       - The LoRA adapter was merged into the DeBERTa model after training, so the model can run independently without extra PEFT setup.
-      - The full trained model is in this link https://drive.google.com/file/d/187MRDqhL-R8TtLHdwEGhKIAdBZnTL8rL/view?usp=sharing. #TODO 让若晨试一下能不能打开这个链接
+      - The full trained model is in this link https://drive.google.com/file/d/187MRDqhL-R8TtLHdwEGhKIAdBZnTL8rL/view?usp=sharing. 
       - Training notebook: https://www.kaggle.com/code/jason1768/comp34812-cw-c
       - Demo notebook: https://www.kaggle.com/code/jason1768/comp34812-cw-c-demo
     
